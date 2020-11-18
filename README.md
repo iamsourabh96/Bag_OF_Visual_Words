@@ -1,6 +1,6 @@
 # Bag_OF_Visual_Words
 
-The general idea of bag of visual words (BOVW) is to represent an image as a set of features, thus enabling compact representation of the image.
+The general idea of bag of visual words (BOVW) is to represent an image as a set of features, thus enabling compact representation of the image.   
 Visual words representation can be useful for place recognition task, loop closure detection, finding similar images, etc. Visual word representations of images are also somewhat robust to orientation and illumination changes, depending on the descriptor used.    
 This implementation uses SIFT features for computing the bag of words (codebook) due its robustness to enviornmental and orientation changes.
 
