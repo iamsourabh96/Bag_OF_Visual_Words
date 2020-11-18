@@ -17,7 +17,7 @@ Once the codebook is computed and fixed, each image can then be transformed into
 ![hist](https://user-images.githubusercontent.com/49958651/99470769-4abdc400-2913-11eb-95cc-eafc93b9f71a.jpeg)
 
 
-## Finding K Similar Images
+## Finding Similar Images
 
 Given a query image - transfrom it into histogram representaion and then compare it with pre-computed histograms of all images (histbook) in the dataset and return K best matches.
 
