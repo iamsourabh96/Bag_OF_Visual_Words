@@ -23,4 +23,12 @@ Given a query image - transfrom it into histogram representaion and then compare
 
 ## Result
 
+#### Query Image
+
+![000000](https://user-images.githubusercontent.com/49958651/99471365-637aa980-2914-11eb-8a4a-e2a5ebc27a28.png)
+
+
+#### Loop Closure Detected Image
+
+![001044](https://user-images.githubusercontent.com/49958651/99471449-8d33d080-2914-11eb-8f58-d80b04324ab8.png)
 
