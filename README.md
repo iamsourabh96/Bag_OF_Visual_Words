@@ -12,7 +12,7 @@ Feature desciptors are extracted from all images in the dataset using SIFT and a
 
 ## Computing Histograms for each image
 
-Once the codebook is computed and fixed, each image can then be transformed into a histogram representaion - counting the number of occurances of the features in the codebook observed in the image. 
+Once the codebook is computed and fixed, each image can then be transformed into a histogram representaion - counting the number of occurances of the features in codebook observed in image. 
 
 ![1_iZMo6VDq6pZPRBgq3M4MoA](https://user-images.githubusercontent.com/49958651/99469685-485a6a80-2911-11eb-9bad-a946339add56.jpeg)
 
