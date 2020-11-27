@@ -12,7 +12,7 @@ CodeBook::CodeBook(const cv::Mat &codebook,
   Mat::Serialization serialization(data_path, binary_path);
   this->serialization = serialization;
 
-  validPath_();
+      validPath_();
 }
 
 CodeBook::CodeBook(const std::filesystem::path &data_path,
@@ -63,3 +63,4 @@ void CodeBook::load(const std::filesystem::path &name) {
 void CodeBook::save(const std::filesystem::path &name) {
   serialization.serialize(codebook, name);
 }
+

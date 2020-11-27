@@ -7,11 +7,13 @@
 namespace fs = std::filesystem;
 
 int main() {
-  const fs::path data_path = fs::canonical("../data/kitti_Seq/Kitti_Seq_07");
+  const fs::path data_path =
+      fs::canonical("/home/sourabh/stuff/projects/Bag_Of_Visual_Words/data/"
+                    "kitti_Seq/Kitti_Seq_07");
   // const fs::path data_path = fs::canonical("../data/bunny_data/images");
   // const fs::path image_name = "0023.ppm";
   const fs::path image_name = "000000.png";
-  int k = 25; // Num of closest match to search for.
+  int k = 20; // Num of closest match to search for.
 
   std::filesystem::path image_path = data_path;
   image_path /= image_name;
