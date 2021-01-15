@@ -8,8 +8,8 @@ namespace fs = std::filesystem;
 
 int main() {
   const fs::path data_path =
-      fs::canonical("/home/sourabh/stuff/projects/Bag_Of_Visual_Words/data/"
-                    "kitti_Seq/Kitti_Seq_07");
+      fs::canonical("/home/sourabh/stuff/projects/completed/"
+                    "Bag_Of_Visual_Words/data/kitti_Seq/Kitti_Seq_07");
   // const fs::path data_path = fs::canonical("../data/bunny_data/images");
   // const fs::path image_name = "0023.ppm";
   const fs::path image_name = "000000.png";

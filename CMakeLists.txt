@@ -4,7 +4,9 @@ cmake_minimum_required(VERSION 3.15)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "-fstandalone-debug")
 
-#set(CMAKE_CXX_FLAGS "-D_GLIBCXX_DEBUG")
+# # set(CMAKE_CXX_FLAGS "-fno-limit-debug-info")
+# set(CMAKE_CXX_FLAGS "-Wall -Wextra")
+# set(CMAKE_CXX_FLAGS "-D_GLIBCXX_DEBUG")
 # SET(CMAKE_CXX_FLAGS "-O0")
 # SET(CMAKE_C_FLAGS "-O0")
 
